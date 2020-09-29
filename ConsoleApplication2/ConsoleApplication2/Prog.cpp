@@ -34,4 +34,8 @@ public:
 	int getInc() {
 		return inc;
 	}
+
+	int operator()() {
+		return n + x + inc;
+	}
 };
