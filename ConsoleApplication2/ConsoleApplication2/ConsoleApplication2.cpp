@@ -7,13 +7,30 @@
 
 using namespace std;
 
+void TestTemplateProg();
+void TestProg();
+
 int main()
 {
-	TemplateProg<float> prog (2, 14, 3);
+	TestProg();
+	TestTemplateProg();
+}
+
+void TestTemplateProg()
+{
+	TemplateProg<float> prog(2, 14, 3);
 	float sum = prog();
 	cout << sum << endl;
 
 	TemplateProg<double> prog2(2, 14, 2);
 	double sum2 = prog2();
 	cout << sum2 << endl;
+}
+
+
+void TestProg()
+{
+	Prog prog(2, 14, 2);
+	int sum = prog();
+	cout << sum << endl;
 }
