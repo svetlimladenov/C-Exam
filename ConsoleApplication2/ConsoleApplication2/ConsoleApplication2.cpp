@@ -8,5 +8,6 @@ using namespace std;
 
 int main()
 {
-  
+	Prog prog(1, 2, 5);
+	cout << prog.getInc();
 }

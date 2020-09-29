@@ -5,6 +5,12 @@ private:
 	int inc;
 
 public:
+	Prog(int nValue, int xValue, int incValue) {
+		n = nValue;
+		x = xValue;
+		inc = incValue;
+	};
+
 	void setN(int value) {
 		n = value;
 	}
