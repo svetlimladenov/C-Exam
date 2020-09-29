@@ -1,12 +1,12 @@
 template<typename T>
 class TemplateProg {
 private:
-	T n;
+	int n;
 	T x;
 	T inc;
 	T sum;
 public:
-	TemplateProg(T xValue, T nValue, T incValue) {
+	TemplateProg(T xValue, int nValue, T incValue) {
 		x = xValue;
 		n = nValue;
 		inc = incValue;
@@ -17,11 +17,11 @@ public:
 
 	};
 
-	void setN(T value) {
+	void setN(int value) {
 		n = value;
 	}
 
-	T getN() {
+	int getN() {
 		return n;
 	}
 
@@ -43,7 +43,6 @@ public:
 
 	// Za da raboti sus nash class, tozi class trqbva da predifinira slednite operacii:
 	// subirane - naprimer  Box operator+()
-	// srvanenie - naprimer  Box operator <= ()
 
 	T operator()() {
 		for (T i = x; i <= n; i += inc)
