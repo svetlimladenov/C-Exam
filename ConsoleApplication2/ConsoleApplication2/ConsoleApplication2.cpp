@@ -8,7 +8,7 @@ using namespace std;
 
 int main()
 {
-	Prog prog(1, 2, 5);
+	Prog prog(2, 14, 3);
 	int sum = prog();
 	cout << sum;
 }

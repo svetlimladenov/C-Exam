@@ -3,12 +3,17 @@ private:
 	int n;
 	int x;
 	int inc;
-
+	int sum;
 public:
-	Prog(int nValue, int xValue, int incValue) {
-		n = nValue;
+	Prog(int xValue, int nValue, int incValue) {
 		x = xValue;
+		n = nValue;
 		inc = incValue;
+		sum = 0;
+	};
+
+	~Prog() {
+
 	};
 
 	void setN(int value) {
@@ -36,6 +41,10 @@ public:
 	}
 
 	int operator()() {
-		return n + x + inc;
+		for (int i = x; i <= n; i+=inc)
+		{
+			sum += i;
+		}
+		return sum;
 	}
 };
