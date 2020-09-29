@@ -1,2 +1,24 @@
 ﻿  ConsoleApplication2.cpp
+D:\nbu\C-Exam\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(27,35): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+D:\nbu\C-Exam\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(28,35): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+D:\nbu\C-Exam\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(29,36): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+D:\nbu\C-Exam\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(30,35): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+  TemplateProg.cpp
+  Generating Code...
   ConsoleApplication2.vcxproj -> D:\nbu\C-Exam\ConsoleApplication2\Debug\ConsoleApplication2.exe
